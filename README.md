@@ -16,6 +16,39 @@ Soal :  Membuat Design User Interface dengan menggunakan Android Studio dari has
 
 **1. Membuat Halaman Splashcreen**
 
+code xml :
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/elipse"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Logo Applikasi" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gas Futsal"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/baumans_egular"/>
+
+</RelativeLayout>
+```
+
 ![image](https://user-images.githubusercontent.com/73049521/236671419-043e4d19-22eb-483a-94d5-cbd1490b6798.png)
 
 **2. Membuat Halaman Log in**
