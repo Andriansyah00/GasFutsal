@@ -137,3 +137,9 @@ Preview Gambar :
 
 ![image](https://user-images.githubusercontent.com/73049521/236671595-a5e88c51-c00f-4bfd-955d-2c0dab9358d6.png)
 
+**3. Membuat Halaman Home**
+
+Untuk source code pada bagian ini bisa diakses di C:\Users\Infinix X1\AndroidStudioProjects\GasFutsal\app\src\main\res\layout
+
+![image](https://github.com/Andriansyah00/GasFutsal/assets/73049521/460ff1d4-e965-48c1-9030-ea5ff0ff4f25)
+
