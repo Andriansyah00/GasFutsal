@@ -139,7 +139,7 @@ Preview Gambar :
 
 **3. Membuat Halaman Home**
 
-Untuk source code pada bagian ini bisa diakses di C:\Users\Infinix X1\AndroidStudioProjects\GasFutsal\app\src\main\res\layout
+Untuk source code pada bagian ini bisa diakses di file yang telah saya lampirkan => app\src\main\res\layout
 
 ![image](https://github.com/Andriansyah00/GasFutsal/assets/73049521/460ff1d4-e965-48c1-9030-ea5ff0ff4f25)
 
