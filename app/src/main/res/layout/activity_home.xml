@@ -7,5 +7,816 @@
     android:background="@color/purple"
     tools:context=".HomeActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/logo_user"
+        app:srcCompat="@drawable/icon1"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/andri"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/hello_bro"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="86dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/wib"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="268dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/_19_00_wib"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="299dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/icon_lapang"
+        app:srcCompat="@drawable/lapang"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:text="@string/next_jadwal"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="347dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/rectangle"
+        app:srcCompat="@drawable/intersect"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/diskon"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/_50"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:contentDescription="@string/icon_player"
+        app:srcCompat="@drawable/kickball"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/bagi_pengguna_baru"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/gas_futsal"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/ayo"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/pilih_team_sparing_kamu"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/pilih_team_sparing_kamu"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/icon_jointeam"
+        app:srcCompat="@drawable/footballplayer"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/iconpl"
+        app:srcCompat="@drawable/locker"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <TextView
+        android:id="@+id/paketlangganan"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_horizontal|top"
+        android:text="@string/paketlangganan"
+        android:textColor="@color/white"
+        android:textSize="9sp"
+        tools:ignore="MissingConstraints,SmallSp,TextSizeCheck"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/rectangle"
+        app:srcCompat="@drawable/rectangle2"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/icon_lapang"
+        app:srcCompat="@drawable/lapang1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <TextView
+        android:id="@+id/bokinglapangan"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_horizontal|top"
+        android:text="@string/booking_lapangan"
+        android:textColor="@color/white"
+        android:textSize="9sp"
+        tools:ignore="MissingConstraints,SmallSp,TextSizeCheck"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/rectangle"
+        app:srcCompat="@drawable/rectangle2"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/jointeam"
+        android:layout_width="43dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_horizontal|top"
+        android:text="@string/join_team"
+        android:textColor="@color/white"
+        android:textSize="9sp"
+        tools:ignore="MissingConstraints,SmallSp,TextSizeCheck"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/rectangle"
+        app:srcCompat="@drawable/rectangle2"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <View
+        android:id="@+id/group_5"
+        android:layout_width="54.42dp"
+        android:layout_height="9.73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shape2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <View
+        android:id="@+id/group_"
+        android:layout_width="54.42dp"
+        android:layout_height="9.73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shape2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <TextView
+        android:id="@+id/lihat_semua"
+        android:layout_width="55dp"
+        android:layout_height="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription=""
+        android:gravity="center"
+        android:text="@string/lihat_semua"
+        android:textColor="@color/white"
+        android:textSize="6sp"
+        tools:ignore="MissingConstraints,SmallSp,TextSizeCheck"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <TextView
+        android:id="@+id/lihat_semua2"
+        android:layout_width="55dp"
+        android:layout_height="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription=""
+        android:gravity="center"
+        android:text="@string/lihat_semua"
+        android:textColor="@color/white"
+        android:textSize="6sp"
+        tools:ignore="MissingConstraints,SmallSp,TextSizeCheck"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="59.64dp"
+        android:layout_height="49.86dp"
+        app:srcCompat="@drawable/shape3"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="438dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/rectangle2" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="59.64dp"
+        android:layout_height="49.86dp"
+        app:srcCompat="@drawable/shape3"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="438dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/rectangle2" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="59.64dp"
+        android:layout_height="49.86dp"
+        app:srcCompat="@drawable/shape3"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="438dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/rectangle2" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="59.64dp"
+        android:layout_height="49.86dp"
+        app:srcCompat="@drawable/shape3"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="438dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/rectangle2" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="30.1dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/vefc"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="26dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/vamos"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="28.09dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/annahl"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="29.09dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/victorycome"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="38dp"
+        android:layout_height="11dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Vamos FC"
+        android:textColor="@color/black"
+        android:textSize="7sp"
+        tools:ignore="MissingConstraints,SmallSp,TextSizeCheck"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="VE FC"
+        android:textColor="@color/black"
+        android:textSize="7sp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="468dp"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="An Nahl"
+        android:textColor="@color/black"
+        android:textSize="7sp"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Arsyil FC"
+        android:textColor="@color/black"
+        android:textSize="7sp"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Score"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_light"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="508dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="38.1dp"
+        android:layout_height="8dp"
+        app:srcCompat="@drawable/shape4"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="483dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="38.1dp"
+        android:layout_height="8dp"
+        app:srcCompat="@drawable/shape4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="38.1dp"
+        android:layout_height="8dp"
+        app:srcCompat="@drawable/shape4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="38.1dp"
+        android:layout_height="8dp"
+        app:srcCompat="@drawable/shape4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="WWWDDW"
+        android:textColor="@color/white"
+        android:textSize="5sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="483dp"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="WDWDDW"
+        android:textColor="@color/white"
+        android:textSize="5sp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="483dp"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="WDWDWW"
+        android:textColor="@color/white"
+        android:textSize="5sp"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="483dp"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="DDWDWW"
+        android:textColor="@color/white"
+        android:textSize="5sp"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="483dp"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="67dp"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/shape3"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="546dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/rectangle2" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="72dp"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/shape3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="546dp"
+        android:contentDescription="@string/rectangle2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/shape3"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="546dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/rectangle2" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="72dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/shape3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="546dp"
+        android:contentDescription="@string/rectangle2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="26dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/vamos"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="550dp"
+        android:contentDescription="Logo" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="38dp"
+        android:layout_height="11dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Vamos FC"
+        android:textColor="@color/black"
+        android:textSize="7sp"
+        tools:ignore="MissingConstraints,SmallSp,TextSizeCheck"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="27.93dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/bogor"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="550dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="logo" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="38dp"
+        android:layout_height="11dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Bogor FC"
+        android:textColor="@color/black"
+        android:textSize="7sp"
+        tools:ignore="MissingConstraints,SmallSp,TextSizeCheck"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="27.93dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/awanglongfa"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="550dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="logo" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="69dp"
+        android:layout_height="11dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Awang Long FA"
+        android:textColor="@color/black"
+        android:textSize="7sp"
+        tools:ignore="MissingConstraints,SmallSp,TextSizeCheck"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="28.96dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/vefc"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="550dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="logo" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="22.13dp"
+        android:layout_height="8.3dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="VE FC"
+        android:textColor="@color/black"
+        android:textSize="7sp"
+        tools:ignore="MissingConstraints,SmallSp,TextSizeCheck"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="22.63dp"
+        android:layout_height="12.22dp"
+        app:srcCompat="@drawable/shape5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="544dp"
+        android:contentDescription="rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="22.63dp"
+        android:layout_height="12.22dp"
+        app:srcCompat="@drawable/shape5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="544dp"
+        android:contentDescription="rectangle" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:text="Jumat, 31 Juli 2020"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:text="Sabtu, 1 Agustus 2020"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="408dp"
+        android:layout_height="95dp"
+        app:srcCompat="@drawable/shape6"
+        tools:ignore="MissingConstraints,ImageContrastCheck,ImageContrastCheck"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="690dp"
+        android:contentDescription="bottom" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="89dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/shape7"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="717dp"
+        android:contentDescription="rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="57dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/icon1"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="717dp" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="62dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/lapangan"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="717dp" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/home"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="722dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="HOME"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="725dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

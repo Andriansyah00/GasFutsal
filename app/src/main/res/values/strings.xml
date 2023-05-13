@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Gas Futsal</string>
+    <string name="wib">Kamis, 12-01-2023</string>
+    <string name="andri">Andri</string>
+    <string name="logo_user">Logo_Profil</string>
+    <string name="hello_bro">Hello Bro ,</string>
+    <string name="_19_00_wib">19.00 WIB</string>
+    <string name="icon_lapang">icon_lapang</string>
+    <string name="next_jadwal">Next Jadwal</string>
+    <string name="rectangle">rectangle</string>
+    <string name="diskon">Diskon</string>
+    <string name="_50">50 %</string>
+    <string name="icon_player">icon_player</string>
+    <string name="bagi_pengguna_baru">*Bagi pengguna baru</string>
+    <string name="gas_futsal">GAS FUTSAL</string>
+    <string name="ayo">Ayo</string>
+    <string name="pilih_team_sparing_kamu">Pilih Team Sparing Kamu</string>
+    <string name="icon_jointeam">icon_jointeam</string>
+    <string name="iconpl">icon_paketlangganan</string>
+    <string name="paketlangganan">Paket Langganan</string>
+    <string name="booking_lapangan">Booking Lapangan</string>
+    <string name="join_team">Join Team</string>
+    <string name="lihat_semua">Lihat semua</string>
+    <string name="rectangle2">Rectangle</string>
 </resources>
