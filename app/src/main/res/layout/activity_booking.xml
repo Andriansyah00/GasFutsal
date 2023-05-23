@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".Booking">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Booking Lapangan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="176dp"
+        android:layout_height="222dp"
+        app:srcCompat="@drawable/rectangle3"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="150dp"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="176dp"
+        android:layout_height="222dp"
+        app:srcCompat="@drawable/rectangle3"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="454dp"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="176dp"
+        android:layout_height="222dp"
+        app:srcCompat="@drawable/rectangle3"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="150dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="176dp"
+        android:layout_height="222dp"
+        app:srcCompat="@drawable/rectangle3"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="454dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="116dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="193dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="116dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/img_1"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="116dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/img_2"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="500dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="116dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/img_3"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="500dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Lapangan 1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Lapangan 2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Lapangan 3"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Lapangan 4"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        app:srcCompat="@drawable/img_4"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="384dp"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        app:srcCompat="@drawable/img_5"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        app:srcCompat="@drawable/img_6"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        app:srcCompat="@drawable/img_7"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
